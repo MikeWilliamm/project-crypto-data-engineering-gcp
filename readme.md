@@ -1,4 +1,4 @@
-# 🚀 Projeto: Crypto Market Overview - Enterprise Data Pipeline
+# Projeto: Crypto Market Overview - Enterprise Data Pipeline
 > **Pipeline de dados para análise de criptomoedas near real-time utilizando arquitetura cloud-native(Google Cloud Platform)**
 <p align="center">
   <img  src="imagens/pipeline.png">
@@ -22,7 +22,7 @@
 |------------|------------|--------|
 | **Infraestrutura Cloud** | Google Cloud Platform| Plataforma principal de infraestrutura |
 | **Linguagem principal** | Python| Principal linguagem de programação | 
-| **Orquestração** | Apache Airflow | Agendamento e monitoramento da pipeline |
+| **Orquestração** | Composer - Apache Airflow | Agendamento e monitoramento da pipeline |
 | **Messaging** | Google Pub/Sub | Event-driven triggers para Cloud Run |
 | **API Gateway** | Cloud Run | Extração serverless de dados da API |
 | **Data Lake** | Cloud Storage | Armazenamento de dados RAW (Bronze) |
